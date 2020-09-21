@@ -82,7 +82,7 @@ img {
     #lezioni .row>.left, .row>.right {
         float: none;
         display: block;
-        width: calc(100% / 2);
+        width: calc(100% / 2 );      
         /* background-color: red;   */
 
     }
@@ -92,8 +92,7 @@ img {
     #steps .row>.right {
         float: none;
         display: block;
-        width: calc(100% / 3 );
-        padding-bottom: 25px;
+        width: calc(100% / 3);
     }
 
     #why .row>.first,
