@@ -80,6 +80,9 @@ img {
         text-align: left;
     }
 
+    .row {
+        width: 100%;
+    }
     #lezioni .row>.left, .row>.right {
         float: none;
         display: block;
@@ -99,7 +102,7 @@ img {
     #why .row>.first,
     #why .row>.second,
     #why .row>.third  {
-        text-align: center;        
+        text-align: center;
         max-width: 420px;
     }
 
