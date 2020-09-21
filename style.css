@@ -75,8 +75,32 @@ img {
 /*   aggiunta richiesta  */
 
 @media screen and (max-width: 420px) {
-    body {
-        background-color: blue;
+
+    h1 {
+        text-align: left;
+    }
+    #lezioni .row>.left, .row>.right {
+        float: none;
+        display: block;
+        width: calc(100% / 2);
+        /* background-color: red;   */
+
+    }
+
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right {
+        float: none;
+        display: block;
+        width: calc(100% / 3 );
+        padding-bottom: 25px;
+    }
+
+    #why .row>.first,
+    #why .row>.second,
+    #why .row>.third  {
+        display: block;
+        width: calc(100% / 3);
     }
 
 }
