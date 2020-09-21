@@ -71,3 +71,12 @@ img {
 .clear {
   clear: both;
 }
+
+/*   aggiunta richiesta  */
+
+@media screen and (max-width: 420px) {
+    body {
+        background-color: blue;
+    }
+
+}
