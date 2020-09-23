@@ -76,6 +76,7 @@ img {
 
 @media screen and (max-width: 420px) {
 
+
     .row {
         width: 100%;
     }
@@ -88,6 +89,8 @@ img {
         width: 100%;
         float: none;
     }
+
+/* fixed delle immagini */
 
     img {
         max-width: 100%;
